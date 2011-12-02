@@ -26,7 +26,7 @@ protected:
 	// Kinect
 	//////////////////
 	//
-	ofxOpenNI		kinect;
+	ofxOpenNI		openNI;
 	
 	void			pipetRGB(ofVec2f &m);
 	ofVec3f			worldCursor;

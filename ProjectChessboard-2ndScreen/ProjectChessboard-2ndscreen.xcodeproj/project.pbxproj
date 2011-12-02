@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B37244D144886E0005A14F4 /* Calibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B37230A144886DE005A14F4 /* Calibration.cpp */; };
-		8B37244E144886E0005A14F4 /* ContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B37230C144886DE005A14F4 /* ContourFinder.cpp */; };
-		8B37244F144886E0005A14F4 /* Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B37230E144886DE005A14F4 /* Distance.cpp */; };
-		8B372450144886E0005A14F4 /* Helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B372310144886DE005A14F4 /* Helpers.cpp */; };
-		8B372451144886E0005A14F4 /* Tracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B372313144886DE005A14F4 /* Tracker.cpp */; };
-		8B372452144886E0005A14F4 /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B372315144886DE005A14F4 /* Utilities.cpp */; };
-		8B372453144886E0005A14F4 /* Wrappers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B372317144886DE005A14F4 /* Wrappers.cpp */; };
+		0324ED2A1488B41700B4E208 /* Calibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324EC0A1488B41700B4E208 /* Calibration.cpp */; };
+		0324ED2C1488B41700B4E208 /* Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324EC0C1488B41700B4E208 /* Distance.cpp */; };
+		0324ED2D1488B41700B4E208 /* Helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324EC0D1488B41700B4E208 /* Helpers.cpp */; };
+		0324ED2E1488B41700B4E208 /* RunningBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324EC0E1488B41700B4E208 /* RunningBackground.cpp */; };
+		0324ED2F1488B41700B4E208 /* Tracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324EC0F1488B41700B4E208 /* Tracker.cpp */; };
+		0324ED301488B41700B4E208 /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324EC101488B41700B4E208 /* Utilities.cpp */; };
+		0324ED311488B41700B4E208 /* Wrappers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324EC111488B41700B4E208 /* Wrappers.cpp */; };
+		0324ED321488B41700B4E208 /* TalkyBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324ECE81488B41700B4E208 /* TalkyBase.cpp */; };
+		0324ED331488B41700B4E208 /* TalkyBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324ECEA1488B41700B4E208 /* TalkyBuffer.cpp */; };
+		0324ED341488B41700B4E208 /* TalkyMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324ECEC1488B41700B4E208 /* TalkyMessage.cpp */; };
+		0324ED391488B41700B4E208 /* ofxTalky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0324ED061488B41700B4E208 /* ofxTalky.cpp */; };
 		8B372454144886E0005A14F4 /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B372371144886DE005A14F4 /* libopencv_calib3d.a */; };
 		8B372455144886E0005A14F4 /* libopencv_contrib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B372372144886DE005A14F4 /* libopencv_contrib.a */; };
 		8B372456144886E0005A14F4 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B372373144886DE005A14F4 /* libopencv_core.a */; };
@@ -131,10 +135,6 @@
 		8BB086F41447207E0009F52E /* ofxTCPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB086EE1447207E0009F52E /* ofxTCPServer.cpp */; };
 		8BB086F51447207E0009F52E /* ofxUDPManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB086F01447207E0009F52E /* ofxUDPManager.cpp */; };
 		8BB091DA144731310009F52E /* Chessboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB091D7144731310009F52E /* Chessboard.cpp */; };
-		8BB0953C144731470009F52E /* TalkyBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB09486144731460009F52E /* TalkyBase.cpp */; };
-		8BB0953D144731470009F52E /* TalkyBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB09488144731460009F52E /* TalkyBuffer.cpp */; };
-		8BB0953E144731470009F52E /* TalkyMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0948A144731460009F52E /* TalkyMessage.cpp */; };
-		8BB09583144731470009F52E /* ofxTalky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB09530144731460009F52E /* ofxTalky.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -185,22 +185,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8B372308144886DE005A14F4 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
-		8B37230A144886DE005A14F4 /* Calibration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calibration.cpp; sourceTree = "<group>"; };
-		8B37230B144886DE005A14F4 /* Calibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calibration.h; sourceTree = "<group>"; };
-		8B37230C144886DE005A14F4 /* ContourFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContourFinder.cpp; sourceTree = "<group>"; };
-		8B37230D144886DE005A14F4 /* ContourFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContourFinder.h; sourceTree = "<group>"; };
-		8B37230E144886DE005A14F4 /* Distance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Distance.cpp; sourceTree = "<group>"; };
-		8B37230F144886DE005A14F4 /* Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distance.h; sourceTree = "<group>"; };
-		8B372310144886DE005A14F4 /* Helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Helpers.cpp; sourceTree = "<group>"; };
-		8B372311144886DE005A14F4 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
-		8B372312144886DE005A14F4 /* ofxCv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCv.h; sourceTree = "<group>"; };
-		8B372313144886DE005A14F4 /* Tracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cpp; sourceTree = "<group>"; };
-		8B372314144886DE005A14F4 /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
-		8B372315144886DE005A14F4 /* Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
-		8B372316144886DE005A14F4 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
-		8B372317144886DE005A14F4 /* Wrappers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wrappers.cpp; sourceTree = "<group>"; };
-		8B372318144886DE005A14F4 /* Wrappers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.h; sourceTree = "<group>"; };
+		0324EBFD1488B41700B4E208 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0324EC011488B41700B4E208 /* ofxCvCalibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvCalibration.h; sourceTree = "<group>"; };
+		0324EC031488B41700B4E208 /* ofxCvDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvDistance.h; sourceTree = "<group>"; };
+		0324EC041488B41700B4E208 /* ofxCvHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvHelpers.h; sourceTree = "<group>"; };
+		0324EC051488B41700B4E208 /* ofxCvRunningBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvRunningBackground.h; sourceTree = "<group>"; };
+		0324EC061488B41700B4E208 /* ofxCvTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvTracker.h; sourceTree = "<group>"; };
+		0324EC071488B41700B4E208 /* ofxCvUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvUtilities.h; sourceTree = "<group>"; };
+		0324EC081488B41700B4E208 /* ofxCvWrappers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCvWrappers.h; sourceTree = "<group>"; };
+		0324EC0A1488B41700B4E208 /* Calibration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calibration.cpp; sourceTree = "<group>"; };
+		0324EC0C1488B41700B4E208 /* Distance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Distance.cpp; sourceTree = "<group>"; };
+		0324EC0D1488B41700B4E208 /* Helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Helpers.cpp; sourceTree = "<group>"; };
+		0324EC0E1488B41700B4E208 /* RunningBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningBackground.cpp; sourceTree = "<group>"; };
+		0324EC0F1488B41700B4E208 /* Tracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cpp; sourceTree = "<group>"; };
+		0324EC101488B41700B4E208 /* Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
+		0324EC111488B41700B4E208 /* Wrappers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wrappers.cpp; sourceTree = "<group>"; };
+		0324EC121488B41700B4E208 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		0324EC141488B41700B4E208 /* ofxCv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCv.h; sourceTree = "<group>"; };
+		0324EC151488B41700B4E208 /* update-projects.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "update-projects.sh"; sourceTree = "<group>"; };
+		0324ECE61488B41700B4E208 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		0324ECE81488B41700B4E208 /* TalkyBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkyBase.cpp; sourceTree = "<group>"; };
+		0324ECE91488B41700B4E208 /* TalkyBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkyBase.h; sourceTree = "<group>"; };
+		0324ECEA1488B41700B4E208 /* TalkyBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkyBuffer.cpp; sourceTree = "<group>"; };
+		0324ECEB1488B41700B4E208 /* TalkyBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkyBuffer.h; sourceTree = "<group>"; };
+		0324ECEC1488B41700B4E208 /* TalkyMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkyMessage.cpp; sourceTree = "<group>"; };
+		0324ECED1488B41700B4E208 /* TalkyMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkyMessage.h; sourceTree = "<group>"; };
+		0324ED061488B41700B4E208 /* ofxTalky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTalky.cpp; sourceTree = "<group>"; };
+		0324ED071488B41700B4E208 /* ofxTalky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxTalky.h; sourceTree = "<group>"; };
 		8B37231A144886DE005A14F4 /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		8B37231F144886DE005A14F4 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
 		8B372320144886DE005A14F4 /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
@@ -410,15 +421,6 @@
 		8BB086F11447207E0009F52E /* ofxUDPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUDPManager.h; sourceTree = "<group>"; };
 		8BB091D7144731310009F52E /* Chessboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chessboard.cpp; sourceTree = "<group>"; };
 		8BB091D8144731310009F52E /* Chessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chessboard.h; sourceTree = "<group>"; };
-		8BB09484144731460009F52E /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
-		8BB09486144731460009F52E /* TalkyBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkyBase.cpp; sourceTree = "<group>"; };
-		8BB09487144731460009F52E /* TalkyBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkyBase.h; sourceTree = "<group>"; };
-		8BB09488144731460009F52E /* TalkyBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkyBuffer.cpp; sourceTree = "<group>"; };
-		8BB09489144731460009F52E /* TalkyBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkyBuffer.h; sourceTree = "<group>"; };
-		8BB0948A144731460009F52E /* TalkyMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkyMessage.cpp; sourceTree = "<group>"; };
-		8BB0948B144731460009F52E /* TalkyMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkyMessage.h; sourceTree = "<group>"; };
-		8BB09530144731460009F52E /* ofxTalky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTalky.cpp; sourceTree = "<group>"; };
-		8BB09531144731460009F52E /* ofxTalky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxTalky.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -572,36 +574,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B3721B6144886DD005A14F4 /* ofxCv */ = {
+		0324EB081488B41600B4E208 /* ofxCv */ = {
 			isa = PBXGroup;
 			children = (
-				8B372308144886DE005A14F4 /* readme.md */,
-				8B372309144886DE005A14F4 /* src */,
+				0324EBFC1488B41700B4E208 /* libs */,
+				0324EC121488B41700B4E208 /* readme.md */,
+				0324EC131488B41700B4E208 /* src */,
+				0324EC151488B41700B4E208 /* update-projects.sh */,
 			);
 			name = ofxCv;
-			path = ../../../addons/ofxCv;
+			path = addons/ofxCv;
 			sourceTree = "<group>";
 		};
-		8B372309144886DE005A14F4 /* src */ = {
+		0324EBFC1488B41700B4E208 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				8B37230A144886DE005A14F4 /* Calibration.cpp */,
-				8B37230B144886DE005A14F4 /* Calibration.h */,
-				8B37230C144886DE005A14F4 /* ContourFinder.cpp */,
-				8B37230D144886DE005A14F4 /* ContourFinder.h */,
-				8B37230E144886DE005A14F4 /* Distance.cpp */,
-				8B37230F144886DE005A14F4 /* Distance.h */,
-				8B372310144886DE005A14F4 /* Helpers.cpp */,
-				8B372311144886DE005A14F4 /* Helpers.h */,
-				8B372312144886DE005A14F4 /* ofxCv.h */,
-				8B372313144886DE005A14F4 /* Tracker.cpp */,
-				8B372314144886DE005A14F4 /* Tracker.h */,
-				8B372315144886DE005A14F4 /* Utilities.cpp */,
-				8B372316144886DE005A14F4 /* Utilities.h */,
-				8B372317144886DE005A14F4 /* Wrappers.cpp */,
-				8B372318144886DE005A14F4 /* Wrappers.h */,
+				0324EBFD1488B41700B4E208 /* .gitignore */,
+				0324EBFE1488B41700B4E208 /* ofxCv */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		0324EBFE1488B41700B4E208 /* ofxCv */ = {
+			isa = PBXGroup;
+			children = (
+				0324EBFF1488B41700B4E208 /* include */,
+				0324EC091488B41700B4E208 /* src */,
+			);
+			path = ofxCv;
+			sourceTree = "<group>";
+		};
+		0324EBFF1488B41700B4E208 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0324EC001488B41700B4E208 /* ofxCv */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0324EC001488B41700B4E208 /* ofxCv */ = {
+			isa = PBXGroup;
+			children = (
+				0324EC011488B41700B4E208 /* ofxCvCalibration.h */,
+				0324EC031488B41700B4E208 /* ofxCvDistance.h */,
+				0324EC041488B41700B4E208 /* ofxCvHelpers.h */,
+				0324EC051488B41700B4E208 /* ofxCvRunningBackground.h */,
+				0324EC061488B41700B4E208 /* ofxCvTracker.h */,
+				0324EC071488B41700B4E208 /* ofxCvUtilities.h */,
+				0324EC081488B41700B4E208 /* ofxCvWrappers.h */,
+			);
+			path = ofxCv;
+			sourceTree = "<group>";
+		};
+		0324EC091488B41700B4E208 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0324EC0A1488B41700B4E208 /* Calibration.cpp */,
+				0324EC0C1488B41700B4E208 /* Distance.cpp */,
+				0324EC0D1488B41700B4E208 /* Helpers.cpp */,
+				0324EC0E1488B41700B4E208 /* RunningBackground.cpp */,
+				0324EC0F1488B41700B4E208 /* Tracker.cpp */,
+				0324EC101488B41700B4E208 /* Utilities.cpp */,
+				0324EC111488B41700B4E208 /* Wrappers.cpp */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		0324EC131488B41700B4E208 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0324EC141488B41700B4E208 /* ofxCv.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0324EC161488B41700B4E208 /* ofxTalky */ = {
+			isa = PBXGroup;
+			children = (
+				0324EC3A1488B41700B4E208 /* libs */,
+				0324ED041488B41700B4E208 /* src */,
+			);
+			name = ofxTalky;
+			path = addons/ofxTalky;
+			sourceTree = "<group>";
+		};
+		0324EC3A1488B41700B4E208 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0324EC3B1488B41700B4E208 /* Talky */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		0324EC3B1488B41700B4E208 /* Talky */ = {
+			isa = PBXGroup;
+			children = (
+				0324ECE61488B41700B4E208 /* readme.md */,
+				0324ECE71488B41700B4E208 /* src */,
+			);
+			path = Talky;
+			sourceTree = "<group>";
+		};
+		0324ECE71488B41700B4E208 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0324ECE81488B41700B4E208 /* TalkyBase.cpp */,
+				0324ECE91488B41700B4E208 /* TalkyBase.h */,
+				0324ECEA1488B41700B4E208 /* TalkyBuffer.cpp */,
+				0324ECEB1488B41700B4E208 /* TalkyBuffer.h */,
+				0324ECEC1488B41700B4E208 /* TalkyMessage.cpp */,
+				0324ECED1488B41700B4E208 /* TalkyMessage.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0324ED041488B41700B4E208 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0324ED051488B41700B4E208 /* events */,
+				0324ED061488B41700B4E208 /* ofxTalky.cpp */,
+				0324ED071488B41700B4E208 /* ofxTalky.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0324ED051488B41700B4E208 /* events */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = events;
 			sourceTree = "<group>";
 		};
 		8B372319144886DE005A14F4 /* ofxOpenCv */ = {
@@ -1085,69 +1186,12 @@
 			path = render;
 			sourceTree = "<group>";
 		};
-		8BB091DB144731450009F52E /* ofxTalky */ = {
-			isa = PBXGroup;
-			children = (
-				8BB093D5144731450009F52E /* libs */,
-				8BB0952E144731460009F52E /* src */,
-			);
-			name = ofxTalky;
-			path = ../../../addons/ofxTalky;
-			sourceTree = "<group>";
-		};
-		8BB093D5144731450009F52E /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				8BB093D6144731450009F52E /* Talky */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		8BB093D6144731450009F52E /* Talky */ = {
-			isa = PBXGroup;
-			children = (
-				8BB09484144731460009F52E /* readme.md */,
-				8BB09485144731460009F52E /* src */,
-			);
-			path = Talky;
-			sourceTree = "<group>";
-		};
-		8BB09485144731460009F52E /* src */ = {
-			isa = PBXGroup;
-			children = (
-				8BB09486144731460009F52E /* TalkyBase.cpp */,
-				8BB09487144731460009F52E /* TalkyBase.h */,
-				8BB09488144731460009F52E /* TalkyBuffer.cpp */,
-				8BB09489144731460009F52E /* TalkyBuffer.h */,
-				8BB0948A144731460009F52E /* TalkyMessage.cpp */,
-				8BB0948B144731460009F52E /* TalkyMessage.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		8BB0952E144731460009F52E /* src */ = {
-			isa = PBXGroup;
-			children = (
-				8BB0952F144731460009F52E /* events */,
-				8BB09530144731460009F52E /* ofxTalky.cpp */,
-				8BB09531144731460009F52E /* ofxTalky.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		8BB0952F144731460009F52E /* events */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = events;
-			sourceTree = "<group>";
-		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				8B3721B6144886DD005A14F4 /* ofxCv */,
+				0324EB081488B41600B4E208 /* ofxCv */,
+				0324EC161488B41700B4E208 /* ofxTalky */,
 				8B372319144886DE005A14F4 /* ofxOpenCv */,
-				8BB091DB144731450009F52E /* ofxTalky */,
 				8BB086E31447207E0009F52E /* ofxNetwork */,
 			);
 			name = addons;
@@ -1321,17 +1365,6 @@
 				8BB086F41447207E0009F52E /* ofxTCPServer.cpp in Sources */,
 				8BB086F51447207E0009F52E /* ofxUDPManager.cpp in Sources */,
 				8BB091DA144731310009F52E /* Chessboard.cpp in Sources */,
-				8BB0953C144731470009F52E /* TalkyBase.cpp in Sources */,
-				8BB0953D144731470009F52E /* TalkyBuffer.cpp in Sources */,
-				8BB0953E144731470009F52E /* TalkyMessage.cpp in Sources */,
-				8BB09583144731470009F52E /* ofxTalky.cpp in Sources */,
-				8B37244D144886E0005A14F4 /* Calibration.cpp in Sources */,
-				8B37244E144886E0005A14F4 /* ContourFinder.cpp in Sources */,
-				8B37244F144886E0005A14F4 /* Distance.cpp in Sources */,
-				8B372450144886E0005A14F4 /* Helpers.cpp in Sources */,
-				8B372451144886E0005A14F4 /* Tracker.cpp in Sources */,
-				8B372452144886E0005A14F4 /* Utilities.cpp in Sources */,
-				8B372453144886E0005A14F4 /* Wrappers.cpp in Sources */,
 				8B3724BD144886E1005A14F4 /* ofxCvColorImage.cpp in Sources */,
 				8B3724BE144886E1005A14F4 /* ofxCvContourFinder.cpp in Sources */,
 				8B3724BF144886E1005A14F4 /* ofxCvFloatImage.cpp in Sources */,
@@ -1339,6 +1372,17 @@
 				8B3724C1144886E1005A14F4 /* ofxCvHaarFinder.cpp in Sources */,
 				8B3724C2144886E1005A14F4 /* ofxCvImage.cpp in Sources */,
 				8B3724C3144886E1005A14F4 /* ofxCvShortImage.cpp in Sources */,
+				0324ED2A1488B41700B4E208 /* Calibration.cpp in Sources */,
+				0324ED2C1488B41700B4E208 /* Distance.cpp in Sources */,
+				0324ED2D1488B41700B4E208 /* Helpers.cpp in Sources */,
+				0324ED2E1488B41700B4E208 /* RunningBackground.cpp in Sources */,
+				0324ED2F1488B41700B4E208 /* Tracker.cpp in Sources */,
+				0324ED301488B41700B4E208 /* Utilities.cpp in Sources */,
+				0324ED311488B41700B4E208 /* Wrappers.cpp in Sources */,
+				0324ED321488B41700B4E208 /* TalkyBase.cpp in Sources */,
+				0324ED331488B41700B4E208 /* TalkyBuffer.cpp in Sources */,
+				0324ED341488B41700B4E208 /* TalkyMessage.cpp in Sources */,
+				0324ED391488B41700B4E208 /* ofxTalky.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

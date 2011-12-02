@@ -1,10 +1,10 @@
 #include "testApp.h"
 
 testApp::testApp() :
-kinectView(kinect),
+kinectView(openNI),
 
 scrPreviewBoard("Chessboard preview", board),
-scrPreviewRGB("RGB camera", kinect.getRGBTextureReference()),
+scrPreviewRGB("RGB camera", openNI.getRGBTextureReference()),
 scrKinectView("Kinect", kinectView),
 
 wdgScale("Chessboard scale", board.scale, 0, 1.0f, 0.01f),
@@ -36,8 +36,8 @@ void testApp::setup(){
 	
 	client.init("localhost");
 	
-	kinect.setupFromXML("openni/config/ofxopenni_config.xml",false);
-	kinect.enableCalibratedRGBDepth();
+	openNI.setupFromXML("openni/config/ofxopenni_config.xml",false);
+	openNI.enableCalibratedRGBDepth();
 	
 	ofAddListener(scrPreviewRGB.evtDraw, this, &testApp::drawFoundCorners2D);
 	ofAddListener(scrKinectView.evtDraw3D, this, &testApp::drawFoundCorners3D);
@@ -49,7 +49,7 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
 	
-	kinect.update();
+	openNI.update();
 	
 	if (wdgScale.isValueNew() || wdgWhiteBackground.isValueNew()) {
 		TalkyMessage msg;
@@ -57,8 +57,8 @@ void testApp::update(){
 		client << msg;
 	}
 	
-	board.findCorners(kinect.getRGBPixels(), foundCornersC);	
-	kinect.cameraToWorld(foundCornersC, foundCornersW);
+	board.findCorners(openNI.getRGBPixels(), foundCornersC);	
+	openNI.cameraToWorld(foundCornersC, foundCornersW);
 	
 	if (wdgCapture.getBang())
 		capture();
@@ -75,7 +75,7 @@ void testApp::pipetRGB(ofVec2f &m){
 	
 	c.x = m.x * 640;
 	c.y = m.y * 480;
-	worldCursor = kinect.cameraToWorld(c);
+	worldCursor = openNI.cameraToWorld(c);
 }
 
 //--------------------------------------------------------------
@@ -157,7 +157,7 @@ void testApp::drawFoundCorners3D(ofNode &n){
 //--------------------------------------------------------------
 void testApp::capture() {
 	projectedCornersP = board.getProjectionSpaceCorners();
-	
+	cout << "projectedCornersP.size(): " << projectedCornersP.size() << endl;
 	for (int i=0; i<foundCornersC.size(); ++i)
 		if (foundCornersW[i].length() > 0.5f)
 			data.push(foundCornersW[i], projectedCornersP[i]);
