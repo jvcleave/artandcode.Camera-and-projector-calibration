@@ -1,3 +1,13 @@
+
+
+Beware that is fork is incomplete.
+I did a lot of addon butchering in order to get it CalibrateProjector to compile for a Mac/OF 007 so hopefully this can  
+help someone looking to do the same. - Jason
+
+
+
+
+
 # 4A: Calibrating Projectors and Cameras: Practical Tools
 *Sunday October 23, Workshop Room TBD @ 10:45a - 12:45pm*
 
